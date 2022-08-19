@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package unite1;
 /** Population projection
  * One birth every 7 seconds
@@ -42,3 +43,6 @@ The population in year 2 will be 3.1759267940659344E8
 The population in year 3 will be 3.2037277610989016E8
 The population in year 4 will be 3.231528728131869E8
 The population in year 5 will be 3.259329695164836E8
+=======
+
+>>>>>>> origin
