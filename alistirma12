@@ -1,1 +1,19 @@
+package unite1;
 
+public class alistirma12 {
+	public static void main(String[] args) {
+        double hour = 1;
+        double minute = 40;
+        double second = 35;
+        double distanceInMiles = 24;
+        double distanceInKm = distanceInMiles * 1.6;
+        double convertion= hour * 60 + minute + second / 60;
+        double  averageSpeed= 60 * distanceInKm / convertion;
+
+        System.out.println("the average speed in kilometers per hour is: "+ averageSpeed);
+
+	}
+}
+
+    OUTPUT:
+ The average speed in kilometers per hour is: 22.906379453189732
