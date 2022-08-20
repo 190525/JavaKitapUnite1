@@ -1,1 +1,17 @@
+package unite1;
+// Average speed in miles
+public class alistirma11 {
+	 public static void main(String[] args) {
+		
+		 // Convertion 
+	        double Miles = 15 / 1.6;     
+	        double hour = 50.5 /60;
+	 
+	        double speed = Miles / hour;            
 
+	        System.out.printf("The average speed in miles per hour is :" + speed);
+
+	    }
+	}
+      OUTPUT:
+  The average speed in miles per hour is :11.138613861386139
