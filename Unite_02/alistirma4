@@ -1,0 +1,25 @@
+package unite2;
+
+// Display Time
+import java.util.Scanner;
+
+public class alistirma4 {
+	public static void main(String[] args) {
+		  Scanner input = new Scanner(System.in);
+		 
+		  System.out.print("Enter an integer for seconds: ");
+		  int seconds = input.nextInt();
+		// Calculate minutes in seconds
+		  int minutes = seconds / 60;
+		  
+		// Calculate seconds remaining
+		  int remainingSeconds = seconds % 60; 
+		 System.out.println(seconds + " seconds is " + minutes + " minutes and " + remainingSeconds + " seconds");
+		 }
+
+}
+	OUTPUT:
+
+Enter an integer for seconds: 1500
+1500 seconds is 25 minutes and 0 seconds
+

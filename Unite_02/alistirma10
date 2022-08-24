@@ -1,0 +1,25 @@
+package unite2;
+
+//Compute the volume of a triangle
+import java.util.*;
+public class alistirma10 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+	System.out.println(" enter length sides of an equilateral triangle");
+	double length = input.nextDouble();
+	double area = ( Math.sqrt(3) / 4 ) * length * length;
+	double volume = area * length;
+	System.out.println("Area of equilateral triangle with side length" + length + "equals to " +  area);
+	System.out.println("Volume of equilateral triangle with side length" + length + "equals to " +  volume);
+	
+	}
+
+}
+
+  OUTPUT:
+enter length sides of an equilateral triangle
+18
+Area of equilateral triangle with side length18.0equals to140.29611541307904
+Volume of equilateral triangle with side length18.0equals to2525.3300774354225
+

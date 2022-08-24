@@ -1,0 +1,24 @@
+package unite2;
+
+//Convert mile to kilometer
+import java.util.*;
+public class alistirma9 {
+	
+public static void main(String[] args) {
+	Scanner input = new Scanner(System.in);
+	System.out.println("Enter miles in double");
+	double miles = input.nextDouble();
+	
+	//Convertion mile to kilometer
+	double km= miles * 1.6 ;
+	
+	System.out.println(miles +"miles equals to" + km +"km");
+	
+	}
+}
+	OUTPUT:
+
+Enter miles in double
+85
+85.0miles equals to136.0km
+

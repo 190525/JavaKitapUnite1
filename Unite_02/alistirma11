@@ -1,0 +1,26 @@
+package unite2;
+
+//Financial application: calculate tips
+import java.util.*;
+public class alistirma11 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the subtotal : ");
+		double subtotal = input.nextDouble();
+		System.out.println("Enter the gratuity rate :");
+		double gratuityRate = input.nextDouble();
+		double gratuity = subtotal * gratuityRate /100;
+		double total =subtotal + gratuity;
+		System.out.println("total amount is : $"+ total +" and gratuity is $" + gratuity );
+		
+	}
+
+}
+	OUTPUT:
+
+Enter the subtotal : 
+300
+Enter the gratuity rate :
+32
+total amount is : $396.0 and gratuity is $96.0
+

@@ -1,0 +1,21 @@
+package unite2;
+//Convert Fahrenheit to Celsius
+import java.util.Scanner;
+
+public class alistirma5 {
+	public static void main(String[] args) {
+		 Scanner input = new Scanner(System.in);
+		  
+		 System.out.print("Enter a degree in Fahrenheit: ");
+		  double fahrenheit = input.nextDouble();
+
+		 // Convertion
+		 double celsius = (5.0 / 9) * (fahrenheit - 32);
+		 System.out.println("Fahrenheit " + fahrenheit + " is " + celsius + " in Celsius");
+	}
+
+}
+	OUTPUT:
+
+Enter a degree in Fahrenheit: 1250
+Fahrenheit 1250.0 is 676.6666666666667 in Celsius
